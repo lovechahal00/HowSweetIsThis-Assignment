@@ -1,0 +1,121 @@
+
+
+body, h1, h2, h3, p, ul, li, table {
+  margin: 0;
+  padding: 0;
+  font-family: 'CustomFont', ;
+}
+
+body {
+  background-color: #f7f7f7;
+  color: #333; 
+}
+
+header {
+  background: linear-gradient(135deg, #55aaff, #0077ff);
+  background-color: #55aaff;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+
+main {
+   background-image: url("image_f81da797-0536-4315-93c4-2be5494517cc.webp"), linear-gradient(135deg, #f7f7f7, #ccc);
+   background-color: rgba(85, 170, 255, 0.9);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px;
+ color: #333;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-bottom: 40px; 
+}
+
+h2 {
+  font-size: 2.0rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+ul {
+  font-weight: bolder;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+table {
+  font-weight: bolder;
+  width: 100%;
+  margin-top: 600px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+tfoot th {
+  border-top: 2px solid #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  margin-bottom: 5px;
+}
+
+.contact-form {
+  margin-top: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.contact-form button {
+  background-color: #55aaff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0077ff;
+  box-shadow: 0 2px 4px rgba(0, 119, 255, 0.4);
+}
